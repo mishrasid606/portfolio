@@ -1,0 +1,246 @@
+!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal portfolio</title>
+    <style>
+        /* Reset default browser styles */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        /* Styles for header section */
+        
+        .header {
+            width: 100%;
+            height: 100vh;
+            background-color: cyan;
+        }
+        /* Styles for navigation bar */
+        
+        nav {
+            display: flex;
+            margin: auto;
+            width: 90%;
+            padding: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        
+        nav ul li a:hover {
+            background-color: seagreen;
+            border-radius: 2px;
+            color: white;
+        }
+        
+        .button-cv,
+        .button-gfc {
+            display: inline-block;
+            margin-left: 0%;
+            border-radius: 5px;
+            transition: background-color 0.5s;
+            background: black;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .button-cv:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        .button-gfc {
+            background: lightsalmon;
+        }
+        
+        .button-gfc:hover {
+            background-color: white;
+            color: black;
+        }
+        /* Styles for body section */
+        
+        .body {
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        
+        .body h1 {
+            font-size: 30px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        
+        .demo1 {
+            color: brown;
+            margin-bottom: 30px;
+        }
+        
+        .demo2 {
+            color: black;
+            line-height: 20px;
+        }
+        
+        .button-lrn,
+        .button-hire {
+            background: lightsalmon;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: whitesmoke;
+            display: inline-block;
+            margin: 30px 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            border: none;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+        
+        .button-lrn:hover {
+            background-color: whitesmoke;
+            color: black;
+        }
+        
+        .button-hire {
+            background: black;
+        }
+        
+        .button-hire:hover {
+            background-color: seagreen;
+        }
+        
+        span {
+            color: seagreen;
+        }
+        /* Styles for image section */
+        
+        .image {
+            width: 45%;
+            height: 100%;
+            position: fixed;
+            bottom: 0;
+            right: 80px;
+        }
+        
+        .image img {
+            height: 70%;
+            position: absolute;
+            left: 50%;
+            bottom: 10%;
+            transform: translate(-60%);
+        }
+        
+        .logo {
+            width :500px;
+            /* Set the width of the logo */
+            height: 200px;
+            /* Set the height of the logo */
+            ;
+        }
+        
+        .bg {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            h1 {
+                font-size: 20rem;
+                filter: opacity(0.5);
+            }
+        }
+        
+        .social-icons {
+            position: absolute;
+            bottom: 50px;
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background: #7d2ae8;
+            border-radius: 50%;
+            margin-right: 22px;
+            text-align: center;
+            line-height: 35px;
+            border: 1px solid #fff;
+            outline: 2px solid #7d2ae8;
+            transition: .3s;
+        }
+        
+        .social-icons a:hover {
+            transform: translateY(-5px);
+        }
+        
+        .social-icons a i {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <h1 CLASS="ALPHA">REBEL QUEEN</h1>
+    </div>
+
+
+
+
+
+
+    <!-- Header section -->
+    <div class="header">
+        <nav>
+            <a href="#"><img src="C:\Users\mishr\Downloads\Untitled.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+
+                <li><a href="#">CONTACT ME</a></li>
+                <li><button type="button" class="button-gfc">Get Free Consultant</button></li>
+                <li><button type="button" class="button-cv">DOWNLOAD CV</button></li>
+            </ul>
+        </nav>
+
+        <!-- Body section -->
+        <div class="body">
+            <p class="demo1">welcome to my universe .</p>
+            <h1>Hello <br> I'm Pallavi <span>Mishra.</span></h1>
+            <p class="demo2"> YOU ARE THE ARTIST OF YOUR OWN LIFE .<br> DON'T HAND THE PAINTBRUSH TO ANYONE ELSE...</p>
+            <a href="HOME.HTML"> <button type="button" class="button-lrn"> FOLLOW ME</button></a>
+            <button type="button" class="button-hire"> JOIN ME </button>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <!-- Image section -->
+        <div class="image">
+            <img src="C:\Users\mishr\OneDrive\Pictures\WhatsApp Image 2024-02-16 at 20.24.07_b081bc73.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
